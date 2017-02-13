@@ -1,0 +1,16 @@
+﻿<Window x:Class="DialogHostTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DialogHostTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" KeyUp="Window_KeyUp">
+    <materialDesign:DialogHost>
+        <Grid>
+            <Button Width="200" Height="100" Click="Button_Click" Margin="166,193,151,27">Open dialog</Button>
+            <TextBlock x:Name="textBox" HorizontalAlignment="Left" Height="121" Margin="97,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337"><Run Text="Example 1: "/><Run Text="Click the button "/><Run Text="below "/><Run Text="&gt; close the"/><Run Text=" opened"/><Run Text=" dialog "/><Run Text="&gt; and "/><Run Text="im"/><Run Text="m"/><Run Text="ediately click the button again"/><LineBreak/><Run/><LineBreak/><Run Text="or"/><LineBreak/><Run/><LineBreak/><Run Text="Example 2"/><Run Text=":"/><Run Text=" Press F5"/><Run Text=" "/><Run Text="&gt; close the"/><Run Text=" opened"/><Run Text=" dialog "/><Run Text="&gt; and "/><Run Text="im"/><Run Text="m"/><Run Text="ediately "/><Run Text="press F5 again"/><LineBreak/><Run/></TextBlock>
+        </Grid>
+    </materialDesign:DialogHost>
+</Window>

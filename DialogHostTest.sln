@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogHostTest", "DialogHostTest\DialogHostTest.csproj", "{799DD40E-2C23-4512-89B7-5BFC3443AC2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppVeyor|Any CPU = AppVeyor|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799DD40E-2C23-4512-89B7-5BFC3443AC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+
+packages/
+
+\.vs/
+
+DialogHostTest/bin/
+
+DialogHostTest/obj/
